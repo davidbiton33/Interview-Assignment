@@ -1,18 +1,44 @@
+
 # Burned Babies Management System
 
 ## Overview
 
 This project is designed to manage data for burned babies in a hospital environment. It utilizes a MEAN stack architecture, leveraging MongoDB, Express.js, Angular, and Node.js for a comprehensive full-stack solution.
 
-## Requirements
+## Prerequisites
 
-Before setting up the project, ensure you have the following installed on your system:
+Before you start with the setup instructions, make sure you have the following prerequisites installed on your system:
 
+- **Git**: To clone the repository.
 - **MongoDB Server**: Ensure MongoDB is installed and running on your system. [Download MongoDB](https://www.mongodb.com/try/download/community)
-
 - **Node.js**: Required to run the server-side code. [Download Node.js](https://nodejs.org/)
-
 - **Angular CLI**: Necessary for the Angular application setup. If you're not sure about having Angular CLI installed, you can install it by running `npm install -g @angular/cli` in your terminal. [Angular CLI](https://angular.io/cli)
+
+## Initial Setup
+
+### Cloning the Repository
+
+1. **Open a Terminal**
+
+   - On Windows, press `Windows + R`, type `cmd`, and press `Enter`.
+   - On macOS, open Spotlight search (`Command + Space`), type `Terminal`, and press `Enter`.
+   - On Linux, press `Ctrl + Alt + T` or search for `Terminal` in your applications menu.
+
+2. **Clone the Repository**
+
+   Execute the following command to clone the repository:
+
+   ```bash
+   git clone https://github.com/davidbiton33/Interview-Assignment
+   ```
+
+3. **Navigate to the Project Directory**
+
+   Change your current directory to the cloned project's directory.
+
+   ```bash
+   cd Interview-Assignment
+   ```
 
 ## Setup Instructions
 
@@ -20,7 +46,7 @@ Before setting up the project, ensure you have the following installed on your s
 
 1. **Navigate to the Server Directory**
 
-   Open a terminal and navigate to the `node-server` directory of the project.
+   From the project directory, navigate to the `node-server` directory.
 
    ```bash
    cd node-server
@@ -48,7 +74,7 @@ Before setting up the project, ensure you have the following installed on your s
 
 1. **Navigate to the Client Directory**
 
-   Open a new terminal and navigate to the `client` directory of the project.
+   From the project directory, open a new terminal and navigate to the `client` directory.
 
    ```bash
    cd client
@@ -75,4 +101,3 @@ Before setting up the project, ensure you have the following installed on your s
 ## Usage
 
 After setting up both the server and client sides, you can use the application to manage data for burned babies in the hospital. The system supports Create, Read, Update, and Delete (CRUD) operations.
-
