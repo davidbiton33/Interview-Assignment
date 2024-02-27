@@ -1,5 +1,5 @@
 
-# Burned Babies Management System
+# Newborn Babies Management System
 
 ## Overview
 
