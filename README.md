@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project is designed to manage data for burned babies in a hospital environment. It utilizes a MEAN stack architecture, leveraging MongoDB, Express.js, Angular, and Node.js for a comprehensive full-stack solution.
+This project is designed to manage data for newborn babies in a hospital environment. It utilizes a MEAN stack architecture, leveraging MongoDB, Express.js, Angular, and Node.js for a comprehensive full-stack solution.
 
 ## Prerequisites
 
@@ -100,4 +100,4 @@ Before you start with the setup instructions, make sure you have the following p
 
 ## Usage
 
-After setting up both the server and client sides, you can use the application to manage data for burned babies in the hospital. The system supports Create, Read, Update, and Delete (CRUD) operations.
+After setting up both the server and client sides, you can use the application to manage data for newborn babies in the hospital. The system supports Create, Read, Update, and Delete (CRUD) operations.
