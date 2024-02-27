@@ -9,6 +9,8 @@ This project is designed to manage data for newborn babies in a hospital environ
 
 Before you start with the setup instructions, make sure you have the following prerequisites installed on your system:
 
+
+- **Git**: to clone the git repository [Download Git](https://git-scm.com/download/win)
 - **MongoDB Server**: Ensure MongoDB is installed and running on your system. [Download MongoDB](https://www.mongodb.com/try/download/community)
 - **Node.js**: Required to run the server-side code. [Download Node.js](https://nodejs.org/)
 - **Angular CLI**: Necessary for the Angular application. you can install it by running `npm install -g @angular/cli` in your terminal. [Angular CLI](https://angular.io/cli)
@@ -25,7 +27,7 @@ Before you start with the setup instructions, make sure you have the following p
 
 2. **Clone the Repository**
 
-   Download the repository files or execute the following command to clone the repository:
+   Execute the following command to clone the repository:
 
    ```bash
    git clone https://github.com/davidbiton33/Interview-Assignment
