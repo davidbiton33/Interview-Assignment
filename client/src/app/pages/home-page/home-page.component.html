@@ -1,0 +1,7 @@
+<div *ngIf="showLoader$ | async as showLoader">
+  <app-loader *ngIf="showLoader"></app-loader>
+</div>
+
+<ng-container *ngIf="babies$ | async as babies">
+  <app-babies-table [babies]="babies"></app-babies-table>
+</ng-container>

@@ -1,0 +1,53 @@
+<ng-container *ngIf="babies && babies.length > 0">
+  <div class="min-h-screen bg-gray-100">
+    <div class="container mx-auto max-w-4xl px-4 py-12">
+      <div class="overflow-x-auto relative shadow-lg rounded-lg">
+        <table class="w-full text-sm text-left text-gray-700">
+          <thead class="text-xs text-gray-700 uppercase bg-gray-50">
+            <tr>
+              <th scope="col" class="py-3 px-6">Parent's Name</th>
+              <th scope="col" class="py-3 px-6">Date of Birth</th>
+              <th scope="col" class="py-3 px-6">Weight</th>
+              <th scope="col" class="py-3 px-6">Height</th>
+              <th scope="col" class="py-3 px-6">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-50"
+              *ngFor="let baby of babies"
+            >
+              <td class="py-4 px-6">{{ baby.parentsName }}</td>
+              <td class="py-4 px-6">{{ baby.birthday }}</td>
+              <td class="py-4 px-6">{{ baby.weight }}</td>
+              <td class="py-4 px-6">{{ baby.height }}</td>
+              <td class="py-4 px-6 flex items-center gap-3">
+                <button
+                  class="text-blue-600 hover:text-blue-800 font-semibold"
+                  (click)="editBaby(baby._id)"
+                >
+                  Edit
+                </button>
+                <button
+                  class="text-red-600 hover:text-red-800 font-semibold"
+                  (click)="deleteBaby(baby._id)"
+                >
+                  Delete
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</ng-container>
+
+<!-- No Babies Found Message -->
+<ng-container *ngIf="babies && babies?.length === 0">
+  <div class="container mx-auto max-w-4xl px-4 py-6">
+    <span class="text-gray-700 font-medium"
+      >No babies found. Please add the first.</span
+    >
+  </div>
+</ng-container>
